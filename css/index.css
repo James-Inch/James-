@@ -1,4 +1,12 @@
 #logo {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    padding: 0px 20px;
+}
+#hero{
+    display: block;
+    margin:  60px auto;
+    height: 40vh;
+    width: 40vw;
+    /* position: absolute;
+    top: 50vh; left: 50vw;   */
 }
