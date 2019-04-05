@@ -1,12 +1,22 @@
+nav {
+    height: 100px;
+}
+
 #logo {
     height: 100px;
     padding: 0px 20px;
+    fill: #3C3434;
 }
-#hero{
+
+#menu {
+    height: 20px;
+    padding: 20px 30px 40px 40px;
+    float: right;
+}
+
+#hero {
     display: block;
     margin:  60px auto;
     height: 40vh;
     width: 40vw;
-    /* position: absolute;
-    top: 50vh; left: 50vw;   */
 }

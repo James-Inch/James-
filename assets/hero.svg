@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="693" height="191.716" viewBox="0 0 693 191.716">
-  <g id="Group_3" data-name="Group 3" transform="translate(-635.904 -443.284)">
-    <text id="Web_Designer_Developer" data-name="Web Designer &amp; Developer" transform="translate(644 622)" fill="rgba(22,20,20,0.88)" font-size="50" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Web Designer &amp; Developer</tspan></text>
-    <text id="JAMES_INCH" data-name="JAMES INCH" transform="translate(636.904 552.284)" fill="rgba(15,14,14,0.88)" font-size="113" font-family="Montserrat-Regular, Montserrat" letter-spacing="-0.026em" text-decoration="underline"><tspan x="0" y="0">JAMES INCH</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="196.716" viewBox="0 0 699 196.716">
+  <g id="Group_4" data-name="Group 4" transform="translate(-632.904 -440.284)">
+    <text id="Web_Design_Development" data-name="Web Design &amp; Development" transform="translate(644 622)" fill="#3c3434" stroke="#3c3434" stroke-width="3" font-size="48" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Web Design &amp; Development</tspan></text>
+    <text id="JAMES_INCH" data-name="JAMES INCH" transform="translate(636.904 552.284)" fill="#3d3535" stroke="#3c3434" stroke-width="3" font-size="113" font-family="Montserrat-Regular, Montserrat" letter-spacing="-0.026em"><tspan x="0" y="0">JAMES INCH</tspan></text>
+    <line id="Line_6" data-name="Line 6" x2="674" transform="translate(644.5 567.5)" fill="none" stroke="#3c3434" stroke-width="3"/>
   </g>
 </svg>
