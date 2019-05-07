@@ -8,7 +8,7 @@ document.addEventListener('click', function (event) {
     // Don't follow the link 
     event.preventDefault();
     
-    // Log the cicked element in thje conlsole
+    // Log the cicked element in the conlsole
     console.log(event.target);
     }, 
 false);
