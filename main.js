@@ -1,14 +1,14 @@
-document.addEventListener('click', function (event) {
+document.getElementById('menu').addEventListener('click', showMenu);
 
-    // If the clicked element doesn't have the right selector, bail
-    if (event.target.matches('.hidden')) 
-    
-    return; 
-    
-    // Don't follow the link 
-    event.preventDefault();
-    
-    // Log the cicked element in the conlsole
-    console.log(event.target);
-    }, 
-false);
+function showMenu() {
+    var navMenu = document.getElementById('hidden');
+    navMenu.classList.remove('hidden');
+};
+
+document.getElementById('hidden').addEventListener('click', hideMenu);
+
+function hideMenu() {
+    var navMenu = document.getElementById('hidden');
+    navMenu.classList.add('hidden');
+}
+
