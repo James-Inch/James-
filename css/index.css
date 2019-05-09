@@ -29,6 +29,12 @@ nav {
     display: none;
 }
 
+/* Nav css ^^^^ */
+
+#heroSection {
+    margin-bottom: 50vh;
+}
+
 #hero {
     display: block;
     margin:  60px auto;
