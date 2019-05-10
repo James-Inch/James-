@@ -5,10 +5,10 @@ function showMenu() {
     navMenu.classList.remove('hidden');
 };
 
-document.getElementById('hidden').addEventListener('click', hideMenu);
+document.getElementById('closeMenuBtn').addEventListener('click', closeMenu);
 
-function hideMenu() {
+function closeMenu() {
     var navMenu = document.getElementById('hidden');
     navMenu.classList.add('hidden');
-}
+};
 
