@@ -89,12 +89,6 @@ nav {
     margin: 0px auto;
     width: 500px;
 }
-@media only screen and (max-width: 768) {
-    /* For phones */
-    #bioPic {
-        width: 150px;
-    }
-}
 
 #bioSection p {
     padding: 50px 20vw;
@@ -165,4 +159,12 @@ footer {
 
 #link {
     color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* For phones */
+    #bioPic {
+        width: 200px;
+    }
 }
