@@ -87,7 +87,7 @@ nav {
 #bioPic {
     display: block;
     margin: 0px auto;
-    width: 500px;
+    width: 50vw;
 }
 
 #bioSection p {
@@ -162,9 +162,12 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
-    /* For phones */
+/* @media screen and (max-width: 768px) {
+    For phones
     #bioPic {
         width: 200px;
     }
-}
+} */
+
+TODO: fix all margin units to vw or vh to make responsiveness easier.
+
