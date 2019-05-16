@@ -1,4 +1,12 @@
-nav {
+/* 
+TODO: fix all margin units to vw or vh to make responsiveness easier.
+ */
+
+a {
+    text-decoration: none;
+}
+
+ nav {
     height: 100px;
     background-color: #ffffff;
 }
@@ -8,6 +16,7 @@ nav {
     fill: #3d3535;
     position: absolute;
     left: 20px; top: 0px;
+    cursor: pointer;
 }
 
 #menu {
@@ -32,6 +41,7 @@ nav {
   .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
+    cursor: pointer;
   }
   
 
@@ -168,6 +178,4 @@ footer {
         width: 200px;
     }
 } */
-
-TODO: fix all margin units to vw or vh to make responsiveness easier.
 
