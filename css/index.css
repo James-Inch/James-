@@ -26,6 +26,19 @@ a {
     float: right;
 }
 
+.menuItemContainer {
+    background:grey;
+    padding: 10px;
+    margin-top: 70px;   
+}
+
+
+ul.menuItemContainer li.menuItem a {
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid black;
+}
+
 
 /* Shrink */
 .hvr-shrink {
@@ -139,7 +152,8 @@ a {
 }
 
 #closeMenuBtn {
-    margin: 20px 0px 20px 20px;
+    float: right;
+    margin: 20px;
 }
 
 #bioBtn:hover {
