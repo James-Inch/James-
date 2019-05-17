@@ -27,7 +27,6 @@ a {
 }
 
 .menuItemContainer {
-    background:grey;
     padding: 10px;
     margin-top: 70px;   
 }
@@ -36,7 +35,6 @@ a {
 ul.menuItemContainer li.menuItem a {
     color: #ffffff;
     padding: 5px;
-    border: 1px solid black;
 }
 
 
