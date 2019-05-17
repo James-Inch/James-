@@ -12,3 +12,8 @@ function closeMenu() {
     navMenu.classList.add('hidden');
 };
 
+document.getElementById('logo').addEventListener('click', goHome);
+
+function goHome() { 
+    window.location.assign('/portfolio.html');
+};
