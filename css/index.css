@@ -16,13 +16,13 @@ a {
     height: 100px;
     fill: #3d3535;
     position: absolute;
-    left: 20px; top: 0px;
+    left: 25px; top: 0px;
     cursor: pointer;
 }
 
 #menu {
     height: 20px;
-    padding: 20px 30px 40px 40px;
+    padding: 20px 25px 40px 40px;
     float: right;
 }
 
