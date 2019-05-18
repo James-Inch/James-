@@ -6,6 +6,9 @@ header img#portfolioHero{
     width: 40vw;
 }
 
+#workSection{
+    margin-bottom: 120px;
+}
 
 .img-container {
     box-sizing: border-box;
