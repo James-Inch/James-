@@ -1,7 +1,7 @@
 header img#contactHero{
     text-align: center;
     display: block;
-    margin:  60px auto;
-    height: 40vh;
-    width: 40vw;
+    margin: 0 auto;
+    height: 25vh;
+    width: 25vw;
 }
