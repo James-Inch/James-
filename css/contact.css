@@ -10,7 +10,7 @@ section#contactFormContainer {
     width: 75vw;
     height: 50vh;
     margin: 0 auto;
-    border: 1px solid #3d3535;
+    border: .5px solid #3d3535;
     border-radius: 12px;
     padding: 20px;
 }
@@ -19,5 +19,9 @@ form input#email {
     display: block;
     margin-bottom: 20px;
     border-radius: 12px;
-    
+
+}
+
+form input#message {
+    display: block;
 }
