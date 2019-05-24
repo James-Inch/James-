@@ -119,7 +119,7 @@ ul.menuItemContainer li.menuItem a {
     color: #3d3535;
 }
 
-#bioBtn, #closeMenuBtn, #portfolioBtn{
+#bioBtn, #closeMenuBtn, #portfolioBtn, #formSubmitBtn {
     background-color: #ffffff;
     display: block;
     font-family: 'Montserrat', sans-serif;

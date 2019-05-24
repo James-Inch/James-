@@ -7,7 +7,7 @@ header img#contactHero{
 }
 
 section#contactFormContainer {
-    width: 75vw;
+    width: 60vw;
     height: 50vh;
     margin: 0 auto;
     border: .5px solid #3d3535;
@@ -17,11 +17,26 @@ section#contactFormContainer {
 
 form input#email {
     display: block;
-    margin-bottom: 20px;
+    width: 400px;
+    margin: 20px auto;
     border-radius: 12px;
+    /* font:  'Montserrat', sans-serif; */
 
 }
 
-form input#message {
+form textarea#message {
     display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+form input#formSubmitBtn {
+    float: right;
+}
+
+form input#formSubmitBtn:hover {
+    background-color: #3d3535; 
+    color: #ffffff;
+    border-color: #ffffff;
+    
 }
