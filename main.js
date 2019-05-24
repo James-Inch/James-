@@ -17,3 +17,4 @@ document.getElementById('logo').addEventListener('click', goHome);
 function goHome() { 
     window.location.assign('/portfolio.html');
 };
+
