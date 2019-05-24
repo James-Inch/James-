@@ -8,7 +8,7 @@ header img#contactHero{
 
 section#contactFormContainer {
     width: 60vw;
-    height: 50vh;
+    height: 342px;
     margin: 10px auto 60px;
     border: 1px solid #3d3535;
     border-radius: 8px;
@@ -22,6 +22,7 @@ form input#email {
     border-radius: 8px;
     border: 1px solid #3d3535;
     padding: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form textarea#message {
@@ -32,6 +33,7 @@ form textarea#message {
     border-radius: 8px;
     border: 1px solid #3d3535;
     resize: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form input#formSubmitBtn {
