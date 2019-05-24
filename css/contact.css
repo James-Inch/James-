@@ -10,7 +10,7 @@ section#contactFormContainer {
     width: 60vw;
     height: 50vh;
     margin: 0 auto;
-    border: .5px solid #3d3535;
+    border: 1px solid #3d3535;
     border-radius: 12px;
     padding: 20px;
 }
@@ -20,7 +20,7 @@ form input#email {
     width: 400px;
     margin: 20px auto;
     border-radius: 12px;
-    /* font:  'Montserrat', sans-serif; */
+    border: 1px solid #3d3535;
 
 }
 
@@ -28,15 +28,17 @@ form textarea#message {
     display: block;
     margin: 20px auto;
     width: 400px;
+    border-radius: 12px;
+    border: 1px solid #3d3535
 }
 
 form input#formSubmitBtn {
     float: right;
+    margin-right: 
 }
 
 form input#formSubmitBtn:hover {
     background-color: #3d3535; 
     color: #ffffff;
     border-color: #ffffff;
-    
 }
