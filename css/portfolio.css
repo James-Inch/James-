@@ -23,3 +23,13 @@ header img#portfolioHero{
     display: table;
 }
 
+h2#development-title, #design-title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    color: #3d3535; 
+    padding: 5px;
+    margin-bottom: 40px
+}
