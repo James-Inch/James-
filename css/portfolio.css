@@ -33,3 +33,7 @@ h2#development-title, #design-title {
     padding: 5px;
     margin-bottom: 40px
 }
+
+section#dedignSection embed{
+    margin: 0 auto;
+}
