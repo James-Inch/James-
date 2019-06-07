@@ -83,7 +83,7 @@ ul.menuItemContainer li.menuItem a {
     z-index: 2; 
 }
 
-.hidden {
+.hidden, .hiddenBio {
     display: none;
 }
 
