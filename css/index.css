@@ -108,12 +108,12 @@ ul.menuItemContainer li.menuItem a {
 
 #bioPic {
     display: block;
-    margin: 0px auto;
+    margin: 25px auto;
     width: 50vw;
 }
 
 #bioSection p {
-    padding: 50px 20vw;
+    padding: 25px 20vw;
     font-family: 'Montserrat', sans-serif;
     line-height: 150%; 
     color: #3d3535;
