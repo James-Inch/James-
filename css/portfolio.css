@@ -46,3 +46,10 @@ section#designSection embed {
     margin-right: auto; 
     padding: 25px 0;
 }
+
+@media screen and (min-width: 768px) {
+    For phones
+    section#designSection embed {
+        width: 300px;
+    }
+}
