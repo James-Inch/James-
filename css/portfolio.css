@@ -35,5 +35,14 @@ h2#development-title, #design-title {
 }
 
 section#designSection {
-    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 25px;
+}
+
+
+section#designSection embed {
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 25px 0;
 }
