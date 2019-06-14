@@ -28,6 +28,7 @@ a {
 
 ul.menuItemContainer li.menuItem {
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 ul.menuItemContainer li.menuItem a {
@@ -35,6 +36,7 @@ ul.menuItemContainer li.menuItem a {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+
 }
 
 
