@@ -16,6 +16,16 @@ header img#portfolioHero{
     width: 50%;
     padding: 10px;
 }
+
+.img-container img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.img-container img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
   
 .clearfix::after {
     content: "";
@@ -43,7 +53,7 @@ section#designSection {
 
 section#designSection embed {
     height: 500px;
-    width:1000px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto; 
     padding: 25px 0;
