@@ -18,9 +18,13 @@ function goHome() {
     window.location.assign('/portfolio.html');
 };
 
-document.getElementById('bioBtn').addEventListener('click', expandBio);
+var bio = document.getElementById('bioBtn');
 
-function expandBio() {
-    var expandedBioSection =  document.getElementById('hiddenBio');
-    expandedBioSection.classList.toggle('hiddenBio');
+if (bio) {
+    bio.addEventListener('click', expandBio);
+    function expandBio() {
+        var expandedBioSection =  document.getElementById('hiddenBio');
+        expandedBioSection.classList.toggle('hiddenBio');
+    }
 }
+
