@@ -51,8 +51,7 @@ section#designSection {
 }
 
 
-section#designSection embed {
-    height: 500px;
+section#designSection img {
     width: 1000px;
     margin-left: auto;
     margin-right: auto; 
