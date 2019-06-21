@@ -20,12 +20,14 @@ window.onload = function() {
     };
     
     var bio = document.getElementById('bioBtn');
-    
+
     if (bio) {
         bio.addEventListener('click', expandBio);
         function expandBio() {
             var expandedBioSection =  document.getElementById('hiddenBio');
             expandedBioSection.classList.toggle('hiddenBio');
+            if (bio.innerHTML === "More about me") bio.innerHTML = "Less about me";
+            else bio.innerHTML = "More about me";
         }
     }
 }
