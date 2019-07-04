@@ -29,6 +29,8 @@ a {
 ul.menuItemContainer li.menuItem {
     padding: 10px;
     margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 ul.menuItemContainer li.menuItem a {
@@ -36,6 +38,11 @@ ul.menuItemContainer li.menuItem a {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+}
+
+ul.menuItemContainer li.menuItem img {
+    height: 30px;
+    padding-left: 100%;
 }
 
 
